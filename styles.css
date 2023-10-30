@@ -1,0 +1,89 @@
+/* Additional styles specific to all pages can be added here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #3498db; /* Main blue color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #3498db; /* Main blue color */
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Review Styles */
+.review {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    color: #e74c3c; /* Complementary orange color */
+}
+
+.review p {
+    color: #333;
+}
+
+/* Additional Page-Specific Styles */
+#description p:nth-child(odd) {
+    color: #e74c3c; /* Complementary orange color */
+}
+
+#cast li:nth-child(even) {
+    background-color: #e74c3c; /* Complementary orange color */
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#reviews .review:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#images img {
+    border: 4px solid #e74c3c; /* Complementary orange color */
+}
